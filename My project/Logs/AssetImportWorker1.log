@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.61f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/benpa/My project
+C:/Hackathon/Hackathon-Praj-Ben/My project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56990
-Successfully changed project path to: C:/Users/benpa/My project
-C:/Users/benpa/My project
+59321
+Successfully changed project path to: C:/Hackathon/Hackathon-Praj-Ben/My project
+C:/Hackathon/Hackathon-Praj-Ben/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,19 +49,20 @@ C:/Users/benpa/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7400]  Target information:
+Player connection [49072]  Target information:
 
-Player connection [7400]  * "[IP] 10.7.231.245 [Port] 0 [Flags] 2 [Guid] 323978845 [EditorId] 323978845 [Version] 1048832 [Id] WindowsEditor(7,Terminator) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [49072]  * "[IP] 10.7.231.245 [Port] 0 [Flags] 2 [Guid] 4237159584 [EditorId] 4237159584 [Version] 1048832 [Id] WindowsEditor(7,Terminator) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [7400] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [7400] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [49072] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [49072] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
-Refreshing native plugins compatible for Editor in 22.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 53.57 ms, found 12 plugins.
+Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
+Preloading 2 native plugins for Editor in 4.62 ms.
 Initialize engine version: 2022.3.61f1 (6c53ebaf375d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/benpa/My project/Assets
+[Subsystems] Discovering subsystems at path C:/Hackathon/Hackathon-Praj-Ben/My project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -69,121 +70,1066 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     5921 MB
     Driver:   32.0.15.6641
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010393 seconds.
-- Loaded All Assemblies, in  0.470 seconds
+Registered in 0.007863 seconds.
+- Loaded All Assemblies, in  0.373 seconds
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.281 seconds
-Domain Reload Profiling: 747ms
-	BeginReloadAssembly (172ms)
+- Finished resetting the current domain, in  0.280 seconds
+Domain Reload Profiling: 649ms
+	BeginReloadAssembly (104ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
+	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (73ms)
-	LoadAllAssembliesAndSetupDomain (180ms)
-		LoadAssemblies (168ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (103ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (177ms)
-			TypeCache.Refresh (176ms)
-				TypeCache.ScanAssembly (164ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (163ms)
+				TypeCache.ScanAssembly (151ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (281ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (280ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (232ms)
+		SetupLoadedEditorAssemblies (242ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (81ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (160ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
+			ProcessInitializeOnLoadAttributes (117ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly with name 'Oculus.Platform.Editor' already exists (Packages/com.meta.xr.sdk.platform/Editor/Oculus.Platform.Editor.asmdef)
+Assembly with name 'Oculus.Platform.Editor' already exists (Assets/Oculus/Platform/Editor/Oculus.Platform.Editor.asmdef)
+Assembly with name 'Oculus.Platform' already exists (Packages/com.meta.xr.sdk.platform/Oculus.Platform.asmdef)
+Assembly with name 'Oculus.Platform' already exists (Assets/Oculus/Platform/Oculus.Platform.asmdef)
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/VoiceServiceRequestOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/MultiplayerErrorErrorKey.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVRHumanBodyBonesMappingsInterface.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTelemetry/OVRTelemetryMarker.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/BlockedUser.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRLocatable.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/AssemblyInfo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRDeserialize.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRCustomFaceExtensions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRVirtualKeyboard/OVRVirtualKeyboardInputFieldTextHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/IOVRAnchorComponent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Android/PlatformLogger/VoiceSDKLoggerBinding.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/ChallengeCreationType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/ReportRequestResponse.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/UX/VoiceTranscriptionLabel.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRRayTransformer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OpenXRFeatures/MetaXRFeature.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVRBody.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Attributes/TooltipBoxAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchor.Deprecated.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/VoiceServiceRequestEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/UX/HierarchySimplifier.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/ProcessPort.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/VoiceServiceRequest.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/Price.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRVirtualKeyboard/OVRVirtualKeyboardSampleInputHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Attributes/Attributes/VersionTagDropdownAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRStorable.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/CallbackHandlers/WitIntentMatcher.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Feature.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IAudioEventProvider.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Utility/DateTimeUtility.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/VoiceServiceRequestEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/AppDownloadProgressResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/SendInvitesResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/UserCapability.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSceneRoom.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Async/OVRTask.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/CallbackHandlers/OutOfScopeUtteranceHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/InviteOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Async/OVRTask.gen.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/AppDownloadResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/MicrophoneAvailabilityState.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRRayHelper.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Interfaces/IVoiceSDKLogger.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSceneAnchor.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/NetSyncDisconnectReason.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRTriangleMesh.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/TrialOffer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/Interfaces/IPlatformVoiceServiceOverride.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/CowatchingState.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/PluggableBase.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/ChallengeViewerFilter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSceneManager.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/WitObjectEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/WitByteDataEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/NetSyncSessionsChangedNotification.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/WitValidationEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRRuntimeAssetsBase.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Async/OVRFuture.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/Utilities/MicPermissionsManager.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/IOUtility.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchor.Telemetry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRSemanticLabels.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSceneModelLoader.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/OfferTerm.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/SupplementaryMetric.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/UserDataStoreUpdateResponse.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/NetSyncSetSessionPropertyResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTrackedKeyboard/OVRTrackedKeyboard.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/ResponseManager/MatchIntentRegistry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchor.FetchTrackables.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/DictionaryList.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVREnumerable.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/ChallengeVisibility.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRManager.Features.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Settings/WitSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/AudioDurationTracker.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVRSkeletonMetadata.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/NetSyncVoipMicSource.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/ValueReferences/StringReference.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/AccountAgeCategory.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVRHumanBodyBonesMappings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRScenePlaneMeshFilter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRVirtualKeyboard/OVRVirtualKeyboardSampleWPMPrompt.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/PartyMicState.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRObjectPool.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/DynamicEntityProvider.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/LogEventName.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/SampleMetadata/SampleTelemetryEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/AvatarEditorOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/Events/StringEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRFaceExpressions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRNativeList.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/AudioBufferEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchor.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRVirtualKeyboard/OVRVirtualKeyboard.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/VoiceEventToRequestEventMapper.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/PaidOffer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/Destination.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRBounded2D.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/NetSyncSession.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/NetSyncVoipStreamMode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/ManagedInfo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/NetSyncConnection.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/ITranscriptionEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRVirtualKeyboard/OVRVirtualKeyboardHandInputHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/RichPresenceExtraContext.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/BaseSpeechService.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/EntityRegistryComponents/RegisteredDynamicEntityKeyword.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTelemetry/OVRTelemetry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSpace.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Settings/WitSettingsUtility.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVREyeGaze.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRControllerDrivenHandPosesSample.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/AppStatus.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/LogEventParameter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/AppInstallResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/WrapHttpWebRequest.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/InputActions/InputActionSet.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSceneVolumeMeshFilter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/Service/ObjectVoiceExperience.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/ServiceReferences/VoiceServiceAudioEventReference.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/AudioBuffer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRMicrogesturesSample.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/VoiceServiceRequestResults.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OpenXRFeatures/MetaXRFoveationFeature.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/OfferType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRGLTFAnimatinonNode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/PartyUpdateAction.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSemanticClassification.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTrackedKeyboard/OVRKeyboard.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/GameObjectSearchUtility.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRPointerVisualizer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/GroupPresenceLeaveIntent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/UserAccountAgeCategory.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/ChallengeOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/SampleMetadata/MetaCodeSampleAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/PushNotificationResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/Bindings/Android/VoiceSDKImplRequest.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/AbuseReportVideoMode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/RosterOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Passthrough/OVRPassthroughColorLut.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/ResponseManager/MatchIntent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/UI/Comment.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IAudioUploadHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/AudioDurationTrackerFinishedEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/AudioClipAudioSource.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/DynamicEntityDataProvider.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/ApplicationInvite.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/UnityEventListeners/TranscriptionEventListener.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Android/PlatformLogger/VoiceSDKConsoleLoggerImpl.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/ReflectionUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRBounded3D.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/VoiceSession.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/ITranscriptionEventProvider.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitDynamicEntitiesData.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/SampleMetadata/SampleMetadata.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/GroupPresenceJoinIntent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/ISpeechEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/InputActions/InlineLinkAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/RejoinDialogResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/EventCategoryAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/WitService.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRScene.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/VoiceLipSyncMic.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRAnchorContainer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchor.Tracker.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/IRequest.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRVirtualKeyboard/OVRVirtualKeyboardControllerInputHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OpenXRFeatures/MetaXRSubsampledLayout.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRPermissionsRequester.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVROverlayCanvasSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSceneObjectTransformType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IWitConfigurationProvider.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRRuntimeController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Attributes/ButtonAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OpenXRFeatures/MetaXREyeTrackedFoveationFeature.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRDynamicObject.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/GroupPresenceOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSpatialAnchor.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRMicrogestureEventSource.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IDataUploadHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTelemetry/OVRSampledEventSender.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Multiplayer/OVRUnityEditorSwitcher.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/AssemblyInfo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IWitConfigurationSetter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTrackedKeyboard/OVRTrackedKeyboardHands.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRScenePrefabOverride.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IAudioInputEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/WitSocketRequest.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/VoiceSDKConstants.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/WitResponseDecoder.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/Logging/TTSServiceLogging.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRGLTFAnimationNodeMorphTargetHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Async/OVRResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRProfilerScope.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRReadOnlyAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/ResponseManager/ValidatePartialIntent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Attributes/ShowIfAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/WitSampleEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/ServiceReferences/AudioInputServiceReference.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/Challenge.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/UX/VoiceActivationButton.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/AudioBufferConfiguration.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchor.Deferred.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Async/OVRTask.Build.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/PerformanceDataUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSimultaneousHandsAndControllersSample.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/InputActions/RuntimeSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/StringToStringEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/AdvancedAbuseReportOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchor.FetchOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRSharable.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/CowatchViewer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/EventRegistry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTrackedKeyboard/OVRTrackedKeyboardSampleControls.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/ServiceReferences/CombinedAudioEventReference.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/WitConduitParameterProvider.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVRUnityHumanoidSkeletonRetargeter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/Team.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/BuildingBlocks/EntitlementCheck/EntitlementCheck.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/EntityRegistryComponents/DynamicEntityKeywordRegistry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRColocationSession.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/LaunchResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRRoomLayout.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/AppAgeCategory.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/ChallengeEntry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/RuntimeOptimizerService.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/CowatchViewerUpdate.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/Leaderboard.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/CallbackHandlers/ConfidenceRange.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSceneVolume.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRVirtualKeyboard/OVRVirtualKeyboardSampleControls.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/UIButtonSquishHelper.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRMeshJobs.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSpatialAnchor.deprecated.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Attributes/HiddenTextAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/DynamicRangeAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/InvitePanelResultInfo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVRCustomFace.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/PartyUpdateNotification.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/Bindings/Android/IVCBindingEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSpaceQuery.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/VoiceState.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/Events/CaptionEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/WitRuntimeStyles.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/UnityEventListeners/AudioEventListener.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTelemetry/OVRTelemetryUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/WitUnityRequest.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/SpeechEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVRFace.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/RichPresenceOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/NetSyncVoipAttenuationValue.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Attributes/LabelAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/VoiceServiceReference.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/BillingPlan.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRBuildInfo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRScenePlane.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/InitConfigOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/MultiplayerErrorOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/TelemetryEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/AvatarEditorResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVREnumExtensions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OpenXRFeatures/MetaXRSpaceWarp.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitEntityData.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/NetSyncOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/VoiceServiceMockRequest.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/NetSyncConnectionStatus.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVROverlayCanvas.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRAnchorComponents.gen.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSpaceUser.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Attributes/HideIfAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/Events/CaptionData.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRHandTrackingWideMotionModeSample.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/Intents/WitIntentData.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/LaunchInvitePanelFlowResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/ContentRating.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/ProductType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTelemetry/OVRTelemetryConstants.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRHandSkeletonVersions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/WitRequestOptionsEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Android/PlatformLogger/VoiceSDKPlatformLoggerImpl.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IWitInspectorTools.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IVoiceServiceRequestProvider.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
 ========================================================================
 Worker process is ready to serve import requests
 Caller must complete domain reload
+Assembly with name 'Oculus.Platform.Editor' already exists (Packages/com.meta.xr.sdk.platform/Editor/Oculus.Platform.Editor.asmdef)
+Assembly with name 'Oculus.Platform.Editor' already exists (Assets/Oculus/Platform/Editor/Oculus.Platform.Editor.asmdef)
+Assembly with name 'Oculus.Platform' already exists (Packages/com.meta.xr.sdk.platform/Oculus.Platform.asmdef)
+Assembly with name 'Oculus.Platform' already exists (Assets/Oculus/Platform/Oculus.Platform.asmdef)
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/VoiceServiceRequestOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/MultiplayerErrorErrorKey.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVRHumanBodyBonesMappingsInterface.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTelemetry/OVRTelemetryMarker.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/BlockedUser.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRLocatable.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/AssemblyInfo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRDeserialize.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRCustomFaceExtensions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRVirtualKeyboard/OVRVirtualKeyboardInputFieldTextHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/IOVRAnchorComponent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Android/PlatformLogger/VoiceSDKLoggerBinding.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/ChallengeCreationType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/ReportRequestResponse.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/UX/VoiceTranscriptionLabel.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRRayTransformer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OpenXRFeatures/MetaXRFeature.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVRBody.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Attributes/TooltipBoxAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchor.Deprecated.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/VoiceServiceRequestEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/UX/HierarchySimplifier.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/ProcessPort.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/VoiceServiceRequest.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/Price.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRVirtualKeyboard/OVRVirtualKeyboardSampleInputHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Attributes/Attributes/VersionTagDropdownAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRStorable.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/CallbackHandlers/WitIntentMatcher.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Feature.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IAudioEventProvider.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Utility/DateTimeUtility.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/VoiceServiceRequestEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/AppDownloadProgressResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/SendInvitesResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/UserCapability.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSceneRoom.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Async/OVRTask.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/CallbackHandlers/OutOfScopeUtteranceHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/InviteOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Async/OVRTask.gen.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/AppDownloadResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/MicrophoneAvailabilityState.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRRayHelper.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Interfaces/IVoiceSDKLogger.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSceneAnchor.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/NetSyncDisconnectReason.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRTriangleMesh.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/TrialOffer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/Interfaces/IPlatformVoiceServiceOverride.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/CowatchingState.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/PluggableBase.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/ChallengeViewerFilter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSceneManager.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/WitObjectEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/WitByteDataEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/NetSyncSessionsChangedNotification.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/WitValidationEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRRuntimeAssetsBase.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Async/OVRFuture.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/Utilities/MicPermissionsManager.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/IOUtility.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchor.Telemetry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRSemanticLabels.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSceneModelLoader.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/OfferTerm.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/SupplementaryMetric.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/UserDataStoreUpdateResponse.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/NetSyncSetSessionPropertyResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTrackedKeyboard/OVRTrackedKeyboard.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/ResponseManager/MatchIntentRegistry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchor.FetchTrackables.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/DictionaryList.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVREnumerable.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/ChallengeVisibility.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRManager.Features.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Settings/WitSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/AudioDurationTracker.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVRSkeletonMetadata.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/NetSyncVoipMicSource.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/ValueReferences/StringReference.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/AccountAgeCategory.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVRHumanBodyBonesMappings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRScenePlaneMeshFilter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRVirtualKeyboard/OVRVirtualKeyboardSampleWPMPrompt.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/PartyMicState.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRObjectPool.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/DynamicEntityProvider.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/LogEventName.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/SampleMetadata/SampleTelemetryEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/AvatarEditorOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/Events/StringEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRFaceExpressions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRNativeList.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/AudioBufferEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchor.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRVirtualKeyboard/OVRVirtualKeyboard.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/VoiceEventToRequestEventMapper.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/PaidOffer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/Destination.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRBounded2D.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/NetSyncSession.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/NetSyncVoipStreamMode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/ManagedInfo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/NetSyncConnection.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/ITranscriptionEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRVirtualKeyboard/OVRVirtualKeyboardHandInputHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/RichPresenceExtraContext.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/BaseSpeechService.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/EntityRegistryComponents/RegisteredDynamicEntityKeyword.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTelemetry/OVRTelemetry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSpace.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Settings/WitSettingsUtility.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVREyeGaze.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRControllerDrivenHandPosesSample.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/AppStatus.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/LogEventParameter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/AppInstallResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/WrapHttpWebRequest.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/InputActions/InputActionSet.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSceneVolumeMeshFilter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/Service/ObjectVoiceExperience.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/ServiceReferences/VoiceServiceAudioEventReference.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/AudioBuffer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRMicrogesturesSample.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/VoiceServiceRequestResults.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OpenXRFeatures/MetaXRFoveationFeature.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/OfferType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRGLTFAnimatinonNode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/PartyUpdateAction.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSemanticClassification.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTrackedKeyboard/OVRKeyboard.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/GameObjectSearchUtility.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRPointerVisualizer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/GroupPresenceLeaveIntent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/UserAccountAgeCategory.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/ChallengeOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/SampleMetadata/MetaCodeSampleAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/PushNotificationResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/Bindings/Android/VoiceSDKImplRequest.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/AbuseReportVideoMode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/RosterOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Passthrough/OVRPassthroughColorLut.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/ResponseManager/MatchIntent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/UI/Comment.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IAudioUploadHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/AudioDurationTrackerFinishedEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/AudioClipAudioSource.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/DynamicEntityDataProvider.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/ApplicationInvite.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/UnityEventListeners/TranscriptionEventListener.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Android/PlatformLogger/VoiceSDKConsoleLoggerImpl.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/ReflectionUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRBounded3D.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/VoiceSession.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/ITranscriptionEventProvider.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitDynamicEntitiesData.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/SampleMetadata/SampleMetadata.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/GroupPresenceJoinIntent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/ISpeechEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/InputActions/InlineLinkAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/RejoinDialogResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/EventCategoryAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/WitService.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRScene.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/VoiceLipSyncMic.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRAnchorContainer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchor.Tracker.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/IRequest.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRVirtualKeyboard/OVRVirtualKeyboardControllerInputHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OpenXRFeatures/MetaXRSubsampledLayout.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRPermissionsRequester.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVROverlayCanvasSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSceneObjectTransformType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IWitConfigurationProvider.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRRuntimeController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Attributes/ButtonAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OpenXRFeatures/MetaXREyeTrackedFoveationFeature.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRDynamicObject.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/GroupPresenceOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSpatialAnchor.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRMicrogestureEventSource.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IDataUploadHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTelemetry/OVRSampledEventSender.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Multiplayer/OVRUnityEditorSwitcher.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/AssemblyInfo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IWitConfigurationSetter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTrackedKeyboard/OVRTrackedKeyboardHands.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRScenePrefabOverride.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IAudioInputEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/WitSocketRequest.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/VoiceSDKConstants.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/WitResponseDecoder.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/Logging/TTSServiceLogging.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRGLTFAnimationNodeMorphTargetHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Async/OVRResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRProfilerScope.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRReadOnlyAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/ResponseManager/ValidatePartialIntent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Attributes/ShowIfAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/WitSampleEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/ServiceReferences/AudioInputServiceReference.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/Challenge.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/UX/VoiceActivationButton.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/AudioBufferConfiguration.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchor.Deferred.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Async/OVRTask.Build.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/PerformanceDataUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSimultaneousHandsAndControllersSample.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/InputActions/RuntimeSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/StringToStringEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/AdvancedAbuseReportOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchor.FetchOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRSharable.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/CowatchViewer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/EventRegistry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTrackedKeyboard/OVRTrackedKeyboardSampleControls.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/ServiceReferences/CombinedAudioEventReference.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/WitConduitParameterProvider.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVRUnityHumanoidSkeletonRetargeter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/Team.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/BuildingBlocks/EntitlementCheck/EntitlementCheck.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/EntityRegistryComponents/DynamicEntityKeywordRegistry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRColocationSession.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/LaunchResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRRoomLayout.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/AppAgeCategory.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/ChallengeEntry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/RuntimeOptimizerService.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/CowatchViewerUpdate.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/Leaderboard.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/CallbackHandlers/ConfidenceRange.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSceneVolume.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRVirtualKeyboard/OVRVirtualKeyboardSampleControls.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/UIButtonSquishHelper.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRMeshJobs.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSpatialAnchor.deprecated.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Attributes/HiddenTextAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/DynamicRangeAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/InvitePanelResultInfo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVRCustomFace.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/PartyUpdateNotification.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/Bindings/Android/IVCBindingEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSpaceQuery.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/VoiceState.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/Events/CaptionEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/WitRuntimeStyles.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/UnityEventListeners/AudioEventListener.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTelemetry/OVRTelemetryUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/WitUnityRequest.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/SpeechEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVRFace.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/RichPresenceOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/NetSyncVoipAttenuationValue.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Attributes/LabelAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/VoiceServiceReference.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/BillingPlan.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRBuildInfo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRScenePlane.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/InitConfigOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/MultiplayerErrorOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/TelemetryEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/AvatarEditorResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVREnumExtensions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OpenXRFeatures/MetaXRSpaceWarp.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitEntityData.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/NetSyncOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/VoiceServiceMockRequest.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/NetSyncConnectionStatus.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVROverlayCanvas.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRAnchorComponents.gen.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSpaceUser.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Attributes/HideIfAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/Events/CaptionData.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRHandTrackingWideMotionModeSample.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/Intents/WitIntentData.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/LaunchInvitePanelFlowResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/ContentRating.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/ProductType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTelemetry/OVRTelemetryConstants.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRHandSkeletonVersions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/WitRequestOptionsEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Android/PlatformLogger/VoiceSDKPlatformLoggerImpl.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IWitInspectorTools.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IVoiceServiceRequestProvider.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.803 seconds
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.453 seconds
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Assembly with name 'Oculus.Platform.Editor' already exists (Packages/com.meta.xr.sdk.platform/Editor/Oculus.Platform.Editor.asmdef)
+Assembly with name 'Oculus.Platform.Editor' already exists (Assets/Oculus/Platform/Editor/Oculus.Platform.Editor.asmdef)
+Assembly with name 'Oculus.Platform' already exists (Packages/com.meta.xr.sdk.platform/Oculus.Platform.asmdef)
+Assembly with name 'Oculus.Platform' already exists (Assets/Oculus/Platform/Oculus.Platform.asmdef)
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/VoiceServiceRequestOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/MultiplayerErrorErrorKey.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVRHumanBodyBonesMappingsInterface.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTelemetry/OVRTelemetryMarker.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/BlockedUser.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRLocatable.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/AssemblyInfo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRDeserialize.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRCustomFaceExtensions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRVirtualKeyboard/OVRVirtualKeyboardInputFieldTextHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/IOVRAnchorComponent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Android/PlatformLogger/VoiceSDKLoggerBinding.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/ChallengeCreationType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/ReportRequestResponse.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/UX/VoiceTranscriptionLabel.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRRayTransformer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OpenXRFeatures/MetaXRFeature.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVRBody.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Attributes/TooltipBoxAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchor.Deprecated.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/VoiceServiceRequestEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/UX/HierarchySimplifier.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/ProcessPort.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/VoiceServiceRequest.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/Price.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRVirtualKeyboard/OVRVirtualKeyboardSampleInputHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Attributes/Attributes/VersionTagDropdownAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRStorable.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/CallbackHandlers/WitIntentMatcher.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Feature.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IAudioEventProvider.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Utility/DateTimeUtility.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/VoiceServiceRequestEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/AppDownloadProgressResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/SendInvitesResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/UserCapability.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSceneRoom.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Async/OVRTask.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/CallbackHandlers/OutOfScopeUtteranceHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/InviteOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Async/OVRTask.gen.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/AppDownloadResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/MicrophoneAvailabilityState.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRRayHelper.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Interfaces/IVoiceSDKLogger.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSceneAnchor.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/NetSyncDisconnectReason.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRTriangleMesh.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/TrialOffer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/Interfaces/IPlatformVoiceServiceOverride.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/CowatchingState.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/PluggableBase.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/ChallengeViewerFilter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSceneManager.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/WitObjectEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/WitByteDataEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/NetSyncSessionsChangedNotification.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/WitValidationEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRRuntimeAssetsBase.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Async/OVRFuture.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/Utilities/MicPermissionsManager.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/IOUtility.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchor.Telemetry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRSemanticLabels.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSceneModelLoader.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/OfferTerm.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/SupplementaryMetric.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/UserDataStoreUpdateResponse.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/NetSyncSetSessionPropertyResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTrackedKeyboard/OVRTrackedKeyboard.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/ResponseManager/MatchIntentRegistry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchor.FetchTrackables.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/DictionaryList.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVREnumerable.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/ChallengeVisibility.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRManager.Features.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Settings/WitSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/AudioDurationTracker.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVRSkeletonMetadata.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/NetSyncVoipMicSource.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/ValueReferences/StringReference.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/AccountAgeCategory.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVRHumanBodyBonesMappings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRScenePlaneMeshFilter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRVirtualKeyboard/OVRVirtualKeyboardSampleWPMPrompt.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/PartyMicState.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRObjectPool.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/DynamicEntityProvider.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/LogEventName.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/SampleMetadata/SampleTelemetryEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/AvatarEditorOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/Events/StringEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRFaceExpressions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRNativeList.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/AudioBufferEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchor.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRVirtualKeyboard/OVRVirtualKeyboard.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/VoiceEventToRequestEventMapper.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/PaidOffer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/Destination.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRBounded2D.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/NetSyncSession.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/NetSyncVoipStreamMode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/ManagedInfo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/NetSyncConnection.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/ITranscriptionEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRVirtualKeyboard/OVRVirtualKeyboardHandInputHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/RichPresenceExtraContext.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/BaseSpeechService.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/EntityRegistryComponents/RegisteredDynamicEntityKeyword.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTelemetry/OVRTelemetry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSpace.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Settings/WitSettingsUtility.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVREyeGaze.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRControllerDrivenHandPosesSample.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/AppStatus.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/LogEventParameter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/AppInstallResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/WrapHttpWebRequest.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/InputActions/InputActionSet.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSceneVolumeMeshFilter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/Service/ObjectVoiceExperience.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/ServiceReferences/VoiceServiceAudioEventReference.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/AudioBuffer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRMicrogesturesSample.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/VoiceServiceRequestResults.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OpenXRFeatures/MetaXRFoveationFeature.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/OfferType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRGLTFAnimatinonNode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/PartyUpdateAction.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSemanticClassification.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTrackedKeyboard/OVRKeyboard.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/GameObjectSearchUtility.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRPointerVisualizer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/GroupPresenceLeaveIntent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/UserAccountAgeCategory.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/ChallengeOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/SampleMetadata/MetaCodeSampleAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/PushNotificationResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/Bindings/Android/VoiceSDKImplRequest.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/AbuseReportVideoMode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/RosterOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Passthrough/OVRPassthroughColorLut.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/ResponseManager/MatchIntent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/UI/Comment.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IAudioUploadHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/AudioDurationTrackerFinishedEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/AudioClipAudioSource.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/DynamicEntityDataProvider.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/ApplicationInvite.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/UnityEventListeners/TranscriptionEventListener.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Android/PlatformLogger/VoiceSDKConsoleLoggerImpl.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/ReflectionUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRBounded3D.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/VoiceSession.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/ITranscriptionEventProvider.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitDynamicEntitiesData.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/SampleMetadata/SampleMetadata.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/GroupPresenceJoinIntent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/ISpeechEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/InputActions/InlineLinkAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/RejoinDialogResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/EventCategoryAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/WitService.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRScene.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/VoiceLipSyncMic.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRAnchorContainer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchor.Tracker.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/IRequest.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRVirtualKeyboard/OVRVirtualKeyboardControllerInputHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OpenXRFeatures/MetaXRSubsampledLayout.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRPermissionsRequester.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVROverlayCanvasSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSceneObjectTransformType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IWitConfigurationProvider.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRRuntimeController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Attributes/ButtonAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OpenXRFeatures/MetaXREyeTrackedFoveationFeature.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRDynamicObject.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/GroupPresenceOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSpatialAnchor.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRMicrogestureEventSource.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IDataUploadHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTelemetry/OVRSampledEventSender.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Multiplayer/OVRUnityEditorSwitcher.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/AssemblyInfo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IWitConfigurationSetter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTrackedKeyboard/OVRTrackedKeyboardHands.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRScenePrefabOverride.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IAudioInputEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/WitSocketRequest.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/VoiceSDKConstants.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/WitResponseDecoder.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/Logging/TTSServiceLogging.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRGLTFAnimationNodeMorphTargetHandler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Async/OVRResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRProfilerScope.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRReadOnlyAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/ResponseManager/ValidatePartialIntent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Attributes/ShowIfAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/WitSampleEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/ServiceReferences/AudioInputServiceReference.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/Challenge.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/UX/VoiceActivationButton.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/AudioBufferConfiguration.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchor.Deferred.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/Async/OVRTask.Build.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/PerformanceDataUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSimultaneousHandsAndControllersSample.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/InputActions/RuntimeSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/StringToStringEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/AdvancedAbuseReportOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchor.FetchOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRSharable.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/CowatchViewer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/EventRegistry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTrackedKeyboard/OVRTrackedKeyboardSampleControls.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/ServiceReferences/CombinedAudioEventReference.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/WitConduitParameterProvider.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVRUnityHumanoidSkeletonRetargeter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/Team.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/BuildingBlocks/EntitlementCheck/EntitlementCheck.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/EntityRegistryComponents/DynamicEntityKeywordRegistry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRColocationSession.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/LaunchResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRRoomLayout.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/AppAgeCategory.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/ChallengeEntry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/RuntimeOptimizerService.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/CowatchViewerUpdate.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/Leaderboard.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/CallbackHandlers/ConfidenceRange.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSceneVolume.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRVirtualKeyboard/OVRVirtualKeyboardSampleControls.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/UIButtonSquishHelper.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVRMeshJobs.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSpatialAnchor.deprecated.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Attributes/HiddenTextAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/DynamicRangeAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/InvitePanelResultInfo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVRCustomFace.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/PartyUpdateNotification.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Scripts/Runtime/Bindings/Android/IVCBindingEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSpaceQuery.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/VoiceState.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/Events/CaptionEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/WitRuntimeStyles.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/UnityEventListeners/AudioEventListener.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTelemetry/OVRTelemetryUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/WitUnityRequest.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/SpeechEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Movement/OVRFace.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/RichPresenceOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/NetSyncVoipAttenuationValue.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Attributes/LabelAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/VoiceServiceReference.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/BillingPlan.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRBuildInfo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRScenePlane.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/InitConfigOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/MultiplayerErrorOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/TelemetryEvents.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/AvatarEditorResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/Util/OVREnumExtensions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OpenXRFeatures/MetaXRSpaceWarp.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitEntityData.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/NetSyncOptions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Requests/VoiceServiceMockRequest.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/NetSyncConnectionStatus.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVROverlayCanvas.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRAnchor/OVRAnchorComponents/OVRAnchorComponents.gen.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRSpaceUser.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Attributes/HideIfAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Utilities/Events/CaptionData.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRHandTrackingWideMotionModeSample.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Data/Intents/WitIntentData.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/LaunchInvitePanelFlowResult.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/Models/ContentRating.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.platform/Scripts/ProductType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRTelemetry/OVRTelemetryConstants.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.core/Scripts/OVRHandSkeletonVersions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Events/WitRequestOptionsEvent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Android/PlatformLogger/VoiceSDKPlatformLoggerImpl.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IWitInspectorTools.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IVoiceServiceRequestProvider.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.552 seconds
-Domain Reload Profiling: 1351ms
-	BeginReloadAssembly (275ms)
+- Finished resetting the current domain, in  0.401 seconds
+Domain Reload Profiling: 852ms
+	BeginReloadAssembly (128ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (446ms)
-		LoadAssemblies (490ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (240ms)
+		LoadAssemblies (227ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (160ms)
-			TypeCache.Refresh (142ms)
-				TypeCache.ScanAssembly (128ms)
-			ScanForSourceGeneratedMonoScriptInfo (12ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (552ms)
+		AnalyzeDomain (93ms)
+			TypeCache.Refresh (90ms)
+				TypeCache.ScanAssembly (77ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (402ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (432ms)
+		SetupLoadedEditorAssemblies (291ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (51ms)
-			ProcessInitializeOnLoadAttributes (344ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (115ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.27 seconds
-Refreshing native plugins compatible for Editor in 6.14 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (54.9 KB). Loaded Objects now: 3593.
-Memory consumption went from 120.0 MB to 120.0 MB.
-Total: 3.507700 ms (FindLiveObjects: 0.198700 ms CreateObjectMapping: 0.046400 ms MarkObjects: 3.139900 ms  DeleteObjects: 0.121600 ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.25 seconds
+Refreshing native plugins compatible for Editor in 14.15 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 1.24 ms.
+Unloading 7212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (0.5 MB). Loaded Objects now: 7672.
+Memory consumption went from 238.2 MB to 237.7 MB.
+Total: 3.027500 ms (FindLiveObjects: 0.426600 ms CreateObjectMapping: 0.182600 ms MarkObjects: 2.172800 ms  DeleteObjects: 0.244200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 899803.123102 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(eed5f24116c4202428bf220253b7ed65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(eed5f24116c4202428bf220253b7ed65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
- -> (artifact id: '0eba4420a25b3ed079b7254f9c03d8f3') in 0.003679 seconds
+  Time since last request: 903578.073087 seconds.
+  path: Assets/XRI
+  artifactKey: Guid(6f2aab434d5d76f41a8341f019e1c7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI using Guid(6f2aab434d5d76f41a8341f019e1c7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+ -> (artifact id: 'ecd4e8eea5e183b1de06bd4d1a87c392') in 0.002465 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Oculus
+  artifactKey: Guid(5fd63a1944e5ab249a7985ce1c8ac7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus using Guid(5fd63a1944e5ab249a7985ce1c8ac7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+ -> (artifact id: 'c6029e37553535e05d65186569bfabb1') in 0.000503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1055.964517 seconds.
+  path: Assets/Models/uploads_files_3970898_FullScene.fbx
+  artifactKey: Guid(e1e60d66a3d75204089df60d214bce0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/uploads_files_3970898_FullScene.fbx using Guid(e1e60d66a3d75204089df60d214bce0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
+ -> (artifact id: '65c1025864d3e8a5b7c701745efd1eaa') in 0.565918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 121
